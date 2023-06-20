@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.embla {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.embla__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .embla {
+        padding: 0px;
+        overflow: hidden;
+    }
+    .embla__container {
+        display: flex;
+    }
+    .embla__slide {
+        flex: 0 0 100%;
+        min-width: 0;
+    }    
+}
