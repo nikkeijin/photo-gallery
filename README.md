@@ -6,7 +6,7 @@ Resolution above 768px will show you a cool lightbox gallery, while resolution b
 
 Live demo: https://nikkeijin.github.io/photo-gallery/
 
-# Features
+## Features
 
 You can use the following code to enable/disable the lightbox and carousel depending on the resolution.   
 For an example, you can disable the lightbox for resolution below 768px if you wish.
